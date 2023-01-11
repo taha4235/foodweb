@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #1e1c2a;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh; 
+}
+.logo h3{
+    font-size: 30px;
+    font-weight: 300;
+    color: orange;
+}
+nav{
+    height: 100px;
+    margin: 30px;
+   display: flex;
+   justify-content: space-around;
+  
+}
+.links ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.links ul li .first::after{
+    width: 0px;
+    height: 2px;
+    position: absolute;
+    content: "";
+    background-color: orange;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.links ul li .first:hover::after{
+    width: 60px;
+    transition: 0.2s;
+}
+.links ul li .first2::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background-color: orange;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.links ul li .first2:hover::after{
+    width: 60px;
+    transition:  1s;
+}
+.links ul li .first3::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.links ul li .first3:hover::after{
+    width: 60px;
+    transition: 1s;
+}
+.links ul li .first4::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -55px;
+}
+.links ul li .first4:hover::after{
+    width: 60px;
+    transition: 1s;
+}
+.links ul li .first5::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -60px;
+}
+.links ul li .first5:hover::after{
+    width: 60px;
+    transition: 1s;
+}
+.container-2{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.container-2 .img img{
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+.container-2 ,.info{
+    margin-top: 90px;
+}
+.food{
+    color: orange;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.info h4{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 22px;
+}
+.btn-lk{
+    margin-top: 40px;
+    outline:none;
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: #1e1c2a;
+    color: #fff;
+    cursor: pointer;
+    background-color: orange;
+    border-radius: 10px;
+}
+.btn-lk:hover{
+    background-color: #1e1c2a;
+    border: 1px solid #fff;
+    transition: background 1s;
+}
+.container-about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.first-container-about img{
+    width: 300px;
+    height: 300px;
+}
+.first-container-about{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.last-container-about{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.about-title{
+    color: orange;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.last-container-about h4{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.last-container-about p{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.learn-more{
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: orange;
+    margin-top: 20px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.services{
+    width: 100%;
+    height: 80vh;
+}
+.title-food{
+    color: orange;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.services h5{
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.container-all{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.container-all .container-burger{
+    width: 300px;
+    height: 250px;
+    background-color: lemonchiffon;
+    border-radius: 6px;
+}
+.burger{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+.info-about-burger-food h6{
+    font-size: 20px;
+    color: orange;
+}
+.info-about-burger-food p{
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.info-about-burger-food small{
+    color: orange;
+}
+.smal{
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    float: right;
+    border-top-right-radius: 6px;
+}
+.smal .logo{
+    width: 15px;
+    height: 15px;
+    margin-top: 6px;
+}
+.services-container{
+    width: 100%;
+    height: 80vh;
+}
+.container-order-all{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.container-order{
+    width: 300px;
+    height: 200px;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+}
+.small-info h3{
+    color: orange;font-size: 20px;font-weight: 300;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.small-info p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.logos{
+    width: 40px;
+    height: 40px;
+    margin-top: 50px;
+}
+.order-logo-services{
+    color: orange;
+    font-size: 30px;
+    font-weight: 300;
+}
+.container-contact{
+    max-width: 80%;
+    height: 300px;
+    background-color: lemonchiffon;
+   border-radius: 5px;
+}
+.div .we{
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+}
+.div button{
+    width: 120px;
+    color: white;
+    outline: none;
+    border: none;
+    height: 30px;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.footer{
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   justify-content: space-around;
+   margin-top: 150px;
+   margin-left: 150px;
+}
+.title-links{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-links::after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -82px;
+}
+.title-links:hover::after{
+    width: 60px;
+    transition: 1s;
+}
+.first-menu-links ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.social-media-icons ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social-media-icons ul li a{
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 7px;
+}
